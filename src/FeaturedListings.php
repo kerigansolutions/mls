@@ -2,7 +2,7 @@
 
 namespace KeriganSolutions\MLS;
 
-use Includes\Modules\CPT\CustomPostType;
+use KeriganSolutions\CPT\CustomPostType;
 
 class FeaturedListings
 {

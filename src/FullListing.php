@@ -2,7 +2,7 @@
 namespace KeriganSolutions\MLS;
 
 use GuzzleHttp\Client;
-use Includes\Modules\Agents\Agents;
+use KeriganSolutions\Agents\Agents;
 
 /**
 * MLS Listing - Made by Daron Adkins
