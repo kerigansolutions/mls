@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "56cd527e33e89caa21dfc16723021b52",
+    "content-hash": "9ecdc4a59bfa10cf7a953d1ca9976e8c",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -188,6 +188,75 @@
             "time": "2017-10-07T03:19:56+00:00"
         },
         {
+            "name": "kerigansolutions/agents",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kerigansolutions/agents.git",
+                "reference": "da0324c49b7c3a532198399c2d80cdb8af102037"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kerigansolutions/agents/zipball/da0324c49b7c3a532198399c2d80cdb8af102037",
+                "reference": "da0324c49b7c3a532198399c2d80cdb8af102037",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KeriganSolutions\\Agents\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daron Adkins",
+                    "email": "daron.adkins@gmail.com"
+                }
+            ],
+            "description": "Adds agent functionality to the WordPress MLS package from Kerigan Solutions",
+            "time": "2017-11-09T17:31:17+00:00"
+        },
+        {
+            "name": "kerigansolutions/cpt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kerigansolutions/cpt.git",
+                "reference": "56c41f8463341a722ad8dd5c27ab0ff7a6886900"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kerigansolutions/cpt/zipball/56c41f8463341a722ad8dd5c27ab0ff7a6886900",
+                "reference": "56c41f8463341a722ad8dd5c27ab0ff7a6886900",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KeriganSolutions\\CPT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Baird",
+                    "email": "bryan@kerigan.com"
+                }
+            ],
+            "description": "Adds additional custom post type functionality for our WordPress sites",
+            "time": "2017-11-09T17:45:32+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "dev-master",
             "source": {
@@ -241,7 +310,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "kerigansolutions/agents": 20,
+        "kerigansolutions/cpt": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -3,7 +3,9 @@
     "description": "Wordpress package to get MLS data from the KMA Mothership",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "kerigansolutions/agents": "dev-master",
+        "kerigansolutions/cpt": "dev-master"
     },
     "license": "MIT",
     "authors": [
